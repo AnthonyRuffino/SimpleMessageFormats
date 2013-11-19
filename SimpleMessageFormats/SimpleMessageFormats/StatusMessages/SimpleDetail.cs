@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SimpleMessageFormats.StatusMessages
 {
-    class SimpleDetail
+    public class SimpleDetail
     {
         public string Guid { get; set; }
         public int NumericId { get; set; }
